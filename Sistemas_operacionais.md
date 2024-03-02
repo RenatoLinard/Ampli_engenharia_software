@@ -107,3 +107,8 @@ acessíveis financeiramente. Os sistemas operacionais predominantes durante essa
 geração foram o MS-DOS e o Unix. Foi nesse período que se iniciou a 
 utilização de interfaces gráficas, sendo o MS-DOS a base para a evolução que 
 resultou no conhecido sistema operacional Windows.
+
+# Principais funções e serviços dos sistemas operacionais 
+
+**As funções dos sistemas operacionais são: estender a máquina e gerenciar os 
+recursos (TANENBAUM, 2003).** 
