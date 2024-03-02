@@ -168,3 +168,17 @@ usuários e para si mesmo (MACHADO, 1997):
 5. **Armazenamento e Manutenção do Estado do Sistema:**
    - Fornece meios para armazenar e manter o estado do sistema, assegurando 
    consistência e continuidade das operações.
+
+# Evolução dos sistemas operacionais 
+
+## Introdução 
+
+Nessa sessão vamos conhecer a estrutura interna dos sistemas operacionais, 
+os tipos e aprenderemos sobre os sistemas operacionais monoprogramáveis, 
+multiprogramáveis e com múltiplos processadores.
+
+Os sistemas operacionais modernos são capazes de gerenciar eficientemente 
+vários programas simultâneos, como navegadores, editores de texto e tarefas 
+em segundo plano, como antivírus e atualizações. Isso é possível devido à 
+capacidade multitarefa desses sistemas.
+
