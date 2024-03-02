@@ -30,3 +30,80 @@ teclado, o monitor, entre outros.
 
 - Por outro lado, o software consiste em programas (conjunto de instruções) 
 instalados no hardware para executar tarefas específicas.
+
+O sistema operacional é um software incumbido de controlar o computador, 
+visando gerenciar os recursos de hardware, tais como processador, memória e 
+periféricos (como teclado, mouse e impressora), dados, entre outros. Sua 
+principal finalidade é facilitar a interação entre o hardware e o software, 
+atuando como elo essencial entre o usuário do computador e os componentes físicos, 
+além de desempenhar a crucial função de conectar eficientemente o hardware e o 
+usuário do sistema.
+
+Conforme Machado (1997), ao ser ligado, o computador inicia executando o 
+sistema operacional, que se mantém ativo, gerenciando os recursos de hardware 
+e software até o momento em que o computador é desligado. O propósito 
+fundamental do sistema operacional é efetuar o gerenciamento eficiente e 
+produtivo do computador, simplificando sua utilização. Além disso, o sistema 
+operacional tem a responsabilidade de assegurar a integridade e a segurança dos 
+dados durante todo o processo de processamento e armazenamento na memória.
+
+## Breve histórico dos sistemas operacionais
+
+Conforme Tanenbaum (2003), a evolução dos sistemas operacionais ocorreu em 
+paralelo com o avanço da arquitetura dos computadores. A primeira geração de 
+computadores abrangeu o período de 1945 a 1955, caracterizada pelo uso de 
+válvulas e painéis de programação. Nessa fase, as máquinas eram volumosas, 
+lentas e compostas por válvulas, ocupando espaços inteiros, com as operações 
+conduzidas por uma única pessoa através de painéis de programação.
+
+Nesse contexto, não havia sistemas operacionais nem linguagens de programação, 
+e as máquinas se dedicavam principalmente a cálculos matemáticos como 
+logaritmos, voltados para aplicações militares.
+
+De acordo com Tanenbaum (2003), a segunda geração de computadores abrangeu 
+o período de 1955 a 1965, caracterizada pelo uso de transistores e pela 
+implementação de sistemas em lote, conhecidos como sistemas Batch em inglês. 
+Nessa fase, emergiram os mainframes, computadores de grande porte. Contudo, 
+apenas instituições de grande porte, como bancos e universidades, tinham acesso 
+a essas tecnologias devido aos elevados custos envolvidos.
+
+Outro fato é o surgimento das primeiras linguagens de programação Fortran e Assembly.
+
+Conforme Tanenbaum (2003), a terceira geração de computadores abrangeu o 
+período entre 1965 e 1980, caracterizada pela adoção de Circuitos Integrados e 
+pelo desenvolvimento de sistemas de Multiprogramação. Nesta fase, os fabricantes 
+de computadores disponibilizavam duas linhas de produtos distintas: os computadores 
+científicos de grande porte, orientados a palavras, utilizados para cálculos 
+numéricos na ciência e engenharia; e os computadores comerciais orientados a 
+caracteres, empregados por instituições financeiras e companhias de seguros.
+
+Entretanto, o desenvolvimento e a manutenção desses produtos apresentavam custos 
+elevados. A fim de superar esse desafio, a IBM desenvolveu o OS/360. Essas 
+máquinas compartilhavam uma arquitetura e conjunto de instruções idênticos, 
+possibilitando sua utilização tanto para aplicações científicas quanto 
+comerciais, oferecendo assim uma relação custo-benefício mais vantajosa.
+
+Segundo Tanenbaum (2003), uma das técnicas desenvolvidas durante a terceira 
+geração foi a multiprogramação, cujo propósito era possibilitar a execução 
+simultânea de diversos programas, compartilhando os recursos de memória.
+
+A demanda por respostas mais ágeis no processamento deu origem ao conceito de 
+compartilhamento de tempo, também conhecido como timesharing. Essa abordagem 
+envolve a divisão do tempo da CPU em intervalos para a execução de cada 
+programa. Nesse período, foi concebido um sistema operacional capaz de 
+suportar múltiplos usuários conectados simultaneamente, conhecido como 
+Multics. Embora o projeto do Multics tenha introduzido conceitos inovadores, 
+foi apenas nos anos subsequentes que surgiu o Unix, um sistema operacional 
+verdadeiramente multitarefa e multiusuário.
+
+A quarta geração de computadores, que se estende desde 1980 até a presente 
+data, marca a era dos computadores pessoais. O rápido desenvolvimento dos 
+circuitos integrados ou microchips (circuitos eletrônicos) foi o catalisador 
+para a introdução dos computadores de uso pessoal.
+
+Desde então, houve uma significativa evolução em termos de agilidade e 
+praticidade desses dispositivos, que se tornaram mais compactos, velozes e 
+acessíveis financeiramente. Os sistemas operacionais predominantes durante essa 
+geração foram o MS-DOS e o Unix. Foi nesse período que se iniciou a 
+utilização de interfaces gráficas, sendo o MS-DOS a base para a evolução que 
+resultou no conhecido sistema operacional Windows.
