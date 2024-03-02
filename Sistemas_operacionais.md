@@ -182,3 +182,28 @@ vários programas simultâneos, como navegadores, editores de texto e tarefas
 em segundo plano, como antivírus e atualizações. Isso é possível devido à 
 capacidade multitarefa desses sistemas.
 
+## Núcleo do sistema operacional 
+
+O sistema operacional é essencialmente constituído por um conjunto de rotinas 
+denominado kernel ou núcleo. O kernel é o componente central dos sistemas 
+operacionais, sendo responsável pelo gerenciamento dos recursos do 
+computador (MACHADO; MAIA, 2007).
+
+Ao ser ligado, o kernel do sistema operacional executa programas que inicializam 
+o computador, seguindo uma ordem lógica. Suas principais funções, conforme 
+Siqueira (2018), incluem:
+
+1. **Tratamento de Interrupções e Exceções:** Garante a estabilidade do sistema.
+2. **Gerenciamento de Processos e Threads:** Sincroniza, comunica e escalona 
+processos para otimizar o uso do processador.
+3. **Gerenciamento de Memória:** Supervisiona a alocação eficiente de memória.
+4. **Gerenciamento de Sistemas de Arquivos:** Controla operações em arquivos, 
+como criação e leitura.
+5. **Gerenciamento de Dispositivos de Entrada/Saída:** Coordena interações com 
+dispositivos como teclado e mouse.
+6. **Auditoria e Segurança do Sistema:** Monitora atividades e implementa 
+medidas de segurança.
+
+
+
+
