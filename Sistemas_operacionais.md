@@ -204,6 +204,29 @@ dispositivos como teclado e mouse.
 6. **Auditoria e Segurança do Sistema:** Monitora atividades e implementa 
 medidas de segurança.
 
+Os sistemas operacionais restringem as ações dos programas para garantir 
+segurança e estabilidade, especialmente no acesso à memória do computador. 
+Os modos de acesso aos serviços do núcleo determinam os privilégios de 
+execução de um programa, assegurando que um programa não invada a memória 
+de outro, garantindo a integridade do sistema.
 
+Os modos de acesso ocorrem em duas formas: usuário e kernel (núcleo). No modo 
+usuário, os programas podem realizar ações sem privilégios especiais, como a 
+leitura de um arquivo. Já no modo kernel, o acesso pode ocorrer tanto em modo 
+usuário, com privilégios limitados, quanto em modo com privilégio total, 
+permitindo operações críticas, como acesso ao disco.
+
+Quando um programa é executado, o kernel é consultado para determinar se o 
+acesso será em modo usuário ou kernel. Os acessos aos serviços do núcleo são 
+feitos por meio de chamadas ao sistema, também conhecidas como system calls. 
+Essas chamadas servem como interface entre o sistema operacional e os 
+programas dos usuários, permitindo solicitar serviços como acesso ao disco 
+rígido, criação e execução de processos, entre outros.
+
+Durante uma chamada ao sistema, o sistema operacional recebe um comando 
+(como abrir um arquivo) e seus parâmetros. A resposta à chamada pode ser um 
+código indicando sucesso (se a abertura do arquivo foi bem-sucedida), falha 
+(em caso de erro na abertura) ou o resultado do comando em si 
+(como o arquivo aberto para o usuário).
 
 
