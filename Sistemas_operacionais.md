@@ -112,3 +112,59 @@ resultou no conhecido sistema operacional Windows.
 
 **As funções dos sistemas operacionais são: estender a máquina e gerenciar os 
 recursos (TANENBAUM, 2003).** 
+
+## Estender a maquina 
+
+A função do sistema operacional como uma máquina estendida é esconder a 
+complexidade do hardware do programador, conhecida também como abstração.
+
+Um exemplo notável desse comportamento é a abordagem do sistema operacional ao 
+considerar cada dispositivo físico como um arquivo. Ao manipular esses arquivos 
+por meio de comandos de leitura/escrita ou abrir/fechar, os quais podem ser 
+bastante complexos devido à quantidade de parâmetros envolvidos, o sistema 
+operacional assume a responsabilidade de controlar diretamente o dispositivo 
+em relação ao hardware.
+
+## Gerenciar os recursos 
+
+O gerenciamento de recursos no sistema operacional é essencial para controlar 
+de maneira organizada e compartilhada os recursos do computador, como memória, 
+processador e dispositivos de E/S. Suas principais funções incluem garantir a 
+ordem e justiça na distribuição de recursos, monitorar a utilização, mediar 
+conflitos entre programas e usuários, e garantir o atendimento de requisições 
+de recursos de acordo com prioridades estabelecidas.
+
+Esse gerenciamento ocorre por meio do compartilhamento temporal, onde programas 
+aguardam sua vez de utilizar um recurso determinado, e do compartilhamento 
+espacial, permitindo que vários programas utilizem partes específicas do 
+mesmo recurso simultaneamente. Isso resulta em maior eficiência e otimização 
+no uso dos recursos do sistema.
+
+O sistema operacional controla e compartilha recursos do computador de forma 
+ordenada. Por exemplo, ao editar um texto e gravar dados simultaneamente, evita 
+que ambos os programas acessem a memória ao mesmo tempo para evitar perda de 
+dados e conflitos. Isso garante a integridade das operações em andamento.
+
+## Principais serviços do sistema operacional 
+
+O sistema operacional oferece diversos serviços essenciais para aplicativos de 
+usuários e para si mesmo (MACHADO, 1997):
+
+1. **Carregamento e Execução de Programas:**
+   - Facilita o carregamento de programas na memória e a execução dos mesmos.
+
+2. **Sistema de Arquivos:**
+   - Permite a criação, leitura, escrita e exclusão de arquivos, proporcionando 
+   organização e gerenciamento eficiente dos dados.
+
+3. **Interface de Acesso a Periféricos:**
+   - Oferece uma interface para acessar periféricos como impressoras, scanners, 
+   câmeras e pen drives, facilitando a interação com dispositivos externos.
+
+4. **Monitoramento de Recursos:**
+   - Implementa mecanismos de monitoramento para identificar possíveis gargalos 
+   no sistema, permitindo otimizações para melhor desempenho.
+
+5. **Armazenamento e Manutenção do Estado do Sistema:**
+   - Fornece meios para armazenar e manter o estado do sistema, assegurando 
+   consistência e continuidade das operações.
