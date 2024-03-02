@@ -229,4 +229,44 @@ código indicando sucesso (se a abertura do arquivo foi bem-sucedida), falha
 (em caso de erro na abertura) ou o resultado do comando em si 
 (como o arquivo aberto para o usuário).
 
+# Modelo das principais arquiteturas dos sistemas operacionais
 
+## Sistemas Monolíticos
+
+No sistema monolítico, o sistema operacional é desenvolvido como um conjunto 
+de módulos compilados separadamente, que são posteriormente agrupados em um 
+arquivo executável. Nesse modelo, cada procedimento pode ser chamado por 
+outros quando necessário, proporcionando uma integração interna eficiente. 
+A principal vantagem do sistema monolítico reside na simplicidade e 
+eficiência, permitindo a exploração detalhada do hardware. Um exemplo notável 
+desse tipo de sistema é o sistema operacional MS-DOS.
+
+
+## Sistemas em camadas 
+
+Os sistemas em camadas organizam o sistema operacional como uma hierarquia de 
+camadas construídas uma sobre a outra. Cada camada oferece um conjunto de 
+funções utilizadas pelas camadas superiores (TANENBAUM, 2003).
+
+## Máquinas Vituais
+
+Uma máquina virtual (VM) assemelha-se a uma máquina real, criando um nível 
+intermediário entre o sistema operacional e o hardware. Esse nível gera várias 
+máquinas virtuais independentes, cada uma com uma cópia virtual do hardware. 
+Em um mesmo hardware e em plataformas diferentes, é possível executar mais de 
+uma máquina virtual (MACHADO; MAIA, 2007). As principais vantagens incluem a 
+otimização de recursos, garantia de segurança e confiabilidade, pois problemas 
+em uma máquina virtual não afetam as outras, além de facilitar a recuperação 
+de dados e backups.
+
+## Modo cliente-servidor
+
+No modelo cliente-servidor, a ênfase é colocada na implementação da maior 
+parte das funções em modo usuário. O kernel concentra-se na comunicação entre 
+cliente e servidor. 
+Essa divisão do sistema operacional em partes como servidor de processos, 
+de terminais, de arquivos e de memória torna cada componente gerenciável.
+
+Todos os servidores operam em modo usuário, o que significa que eventuais 
+erros em um servidor, como no servidor de arquivos, não afetarão os demais 
+servidores (TANENBAUM, 2003).
