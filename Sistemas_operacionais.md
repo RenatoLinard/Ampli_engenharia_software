@@ -270,3 +270,42 @@ de terminais, de arquivos e de memória torna cada componente gerenciável.
 Todos os servidores operam em modo usuário, o que significa que eventuais 
 erros em um servidor, como no servidor de arquivos, não afetarão os demais 
 servidores (TANENBAUM, 2003).
+
+## Classificação dos Sistemas Operacionais
+
+Conforme Machado e Maia (2007), os sistemas operacionais podem ser categorizados em:
+
+1. **Monoprogramáveis/Monotarefa:**
+   - Executam um único programa por vez, alocando todos os recursos da máquina para o programa em execução.
+   - Exemplo: MS-DOS.
+   - Utilizado nos primeiros computadores pessoais a partir da década de 1960.
+
+2. **Multiprogramáveis/Multitarefa:**
+   - Compartilham os recursos do computador entre vários programas.
+   - Evitam a ociosidade da CPU.
+   - Classificação baseada no gerenciamento de aplicações e no número de usuários.
+
+    - **Número de Usuários:**
+        - *Monousuários:* Apenas um usuário utiliza os recursos da máquina.
+        - *Multiusuário:* Múltiplos usuários logados, compartilhando os recursos.
+
+    - **Maneira de Gerenciamento de Aplicações:**
+        - *Sistema Batch:* Inicialmente, os primeiros sistemas multiprogramáveis. Os processamentos eram 
+        realizados por lotes de registros, conhecidos como "jobs". Os programas eram executados através de 
+        cartões perfurados, armazenados em discos ou fitas, aguardando processamento.
+        
+        - *Sistemas de Tempo Compartilhado (Time-sharing):* Permite que vários programas sejam executados 
+        através da divisão do tempo do processador em pequenos intervalos, conhecido como fatia de tempo 
+        (time-slice). Cada usuário possui um ambiente de trabalho próprio, dando a impressão de que o 
+        sistema está dedicado exclusivamente a ele. Se o tempo destinado à execução de um programa não for 
+        suficiente, o programa é interrompido, aguardando uma nova fatia de tempo para executar. Os comandos 
+        são respondidos em segundos, tornando esses sistemas conhecidos como sistemas online.
+
+        - *Sistemas de Tempo Real (Real-time):* O tempo é o principal parâmetro; um programa utiliza os 
+        recursos da máquina até que apareça outro com maior prioridade. Os prazos são rigorosos em relação 
+        à execução de uma tarefa. Esses sistemas são aplicados em processos de controle industrial, controle 
+        de tráfego aéreo ou em qualquer aplicação onde o tempo de resposta é o fator fundamental.
+
+
+3. **sistemas com múltiplos processadores:**
+
