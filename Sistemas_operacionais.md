@@ -308,12 +308,33 @@ Conforme Machado e Maia (2007), os sistemas operacionais podem ser categorizados
 
 
 3. **Sistemas com Múltiplos Processadores:**
+   - Integram duas ou mais CPUs em um único sistema.
+   - Permitem a execução simultânea de diversos programas, otimizando o desempenho.
+   - Possibilitam a subdivisão de programas para execução em diferentes processadores.
+   - Demandam gerenciamento complexo das CPUs devido à sua natureza.
+   - Aplicações comuns incluem simulações e prospecção de petróleo.
 
-   O conceito de sistemas com múltiplos processadores refere-se à presença de duas ou mais CPUs interligadas em um mesmo sistema. Essa abordagem apresenta as seguintes características:
+      ## Classificação dos Sistemas com Múltiplos Processadores
 
-   - Permite a execução simultânea de diversos programas, otimizando o desempenho do sistema.
-   - Possibilita a subdivisão de um programa, permitindo sua execução simultânea em mais de um processador.
-   - Devido à sua natureza, os sistemas com múltiplos processadores são complexos e demandam uma parte do tempo para gerenciamento eficiente das CPUs.
-   - Encontram-se amplamente presentes em aplicações como simulações e prospecção de petróleo.
+Os sistemas com múltiplos processadores podem ser categorizados em duas principais classes:
+
+### 1. Sistemas Fortemente Acoplados:
+
+   - **Simétricos:**
+     - Os processadores compartilham uma única memória e utilizam o mesmo sistema operacional.
+     - Utilizam paralelismo, permitindo a execução concorrente de partes de programas em processadores disponíveis.
+     - O aumento do processamento é alcançado através do processamento paralelo.
+     - Tanto o Windows quanto o Linux oferecem suporte para sistemas simétricos.
+
+   - **Assimétricos:**
+     - Um processador principal (mestre) controla o sistema e distribui tarefas aos demais processadores.
+     - Em caso de falha no processador principal, o processamento é interrompido nos demais.
+
+### 2. Sistemas Fracamente Acoplados:
+
+   - Funcionam de forma independente, cada um com seu próprio sistema operacional e gestão de recursos.
+   - Gerenciam autonomamente memória, CPU e dispositivos de entrada e saída.
+
+Essa classificação fornece uma visão abrangente das diferentes configurações de sistemas com múltiplos processadores, considerando o nível de acoplamento entre os componentes e a autonomia operacional de cada sistema.
 
 
