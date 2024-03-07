@@ -1,340 +1,130 @@
-# Introdução 
-
-Nesta seção, abordaremos as diversas aplicações dos sistemas operacionais e 
-como diferentes tipos são empregados em diversas situações.
-
-Os conceitos fundamentais dos sistemas operacionais, tais como segurança, 
-permissão de acesso, armazenamento de dados, recuperação de informações, 
-entre outros, permeiam todas as vertentes da área de Tecnologia da Informação. 
-O domínio desses conceitos aprimora as habilidades do profissional de TI em 
-sua esfera de atuação.
-
-Os Sistemas Operacionais têm evoluído em paralelo ao progresso dos computadores. 
-Inicialmente, inexistiam sistemas operacionais, e os computadores eram 
-manipulados manualmente. Atualmente, esses sistemas desempenham diversas funções 
-e oferecem serviços que facilitam tanto o usuário quanto os programadores em 
-suas atividades, assumindo o controle efetivo do hardware disponível.
-
-# Definição, Conceitos e Breve Histórico dos Sistemas Operacionais
-
-Conforme Tanenbaum (2003), o sistema operacional é uma parte crucial de qualquer 
-sistema computacional. Sem eles, os sistemas funcionariam, mas o usuário teria 
-que compreender detalhes de hardware para operar o computador, tornando o 
-processo bastante complexo.
-
-Um sistema computacional é composto por hardware e software:
-
-- Os hardwares são os componentes físicos do computador, incluindo a CPU 
-(Unidade Central de Processamento), o processador, a memória, o mouse, o 
-teclado, o monitor, entre outros.
-
-- Por outro lado, o software consiste em programas (conjunto de instruções) 
-instalados no hardware para executar tarefas específicas.
-
-O sistema operacional é um software incumbido de controlar o computador, 
-visando gerenciar os recursos de hardware, tais como processador, memória e 
-periféricos (como teclado, mouse e impressora), dados, entre outros. Sua 
-principal finalidade é facilitar a interação entre o hardware e o software, 
-atuando como elo essencial entre o usuário do computador e os componentes físicos, 
-além de desempenhar a crucial função de conectar eficientemente o hardware e o 
-usuário do sistema.
-
-Conforme Machado (1997), ao ser ligado, o computador inicia executando o 
-sistema operacional, que se mantém ativo, gerenciando os recursos de hardware 
-e software até o momento em que o computador é desligado. O propósito 
-fundamental do sistema operacional é efetuar o gerenciamento eficiente e 
-produtivo do computador, simplificando sua utilização. Além disso, o sistema 
-operacional tem a responsabilidade de assegurar a integridade e a segurança dos 
-dados durante todo o processo de processamento e armazenamento na memória.
-
-## Breve histórico dos sistemas operacionais
-
-Conforme Tanenbaum (2003), a evolução dos sistemas operacionais ocorreu em 
-paralelo com o avanço da arquitetura dos computadores. A primeira geração de 
-computadores abrangeu o período de 1945 a 1955, caracterizada pelo uso de 
-válvulas e painéis de programação. Nessa fase, as máquinas eram volumosas, 
-lentas e compostas por válvulas, ocupando espaços inteiros, com as operações 
-conduzidas por uma única pessoa através de painéis de programação.
-
-Nesse contexto, não havia sistemas operacionais nem linguagens de programação, 
-e as máquinas se dedicavam principalmente a cálculos matemáticos como 
-logaritmos, voltados para aplicações militares.
-
-De acordo com Tanenbaum (2003), a segunda geração de computadores abrangeu 
-o período de 1955 a 1965, caracterizada pelo uso de transistores e pela 
-implementação de sistemas em lote, conhecidos como sistemas Batch em inglês. 
-Nessa fase, emergiram os mainframes, computadores de grande porte. Contudo, 
-apenas instituições de grande porte, como bancos e universidades, tinham acesso 
-a essas tecnologias devido aos elevados custos envolvidos.
-
-Outro fato é o surgimento das primeiras linguagens de programação Fortran e Assembly.
-
-Conforme Tanenbaum (2003), a terceira geração de computadores abrangeu o 
-período entre 1965 e 1980, caracterizada pela adoção de Circuitos Integrados e 
-pelo desenvolvimento de sistemas de Multiprogramação. Nesta fase, os fabricantes 
-de computadores disponibilizavam duas linhas de produtos distintas: os computadores 
-científicos de grande porte, orientados a palavras, utilizados para cálculos 
-numéricos na ciência e engenharia; e os computadores comerciais orientados a 
-caracteres, empregados por instituições financeiras e companhias de seguros.
-
-Entretanto, o desenvolvimento e a manutenção desses produtos apresentavam custos 
-elevados. A fim de superar esse desafio, a IBM desenvolveu o OS/360. Essas 
-máquinas compartilhavam uma arquitetura e conjunto de instruções idênticos, 
-possibilitando sua utilização tanto para aplicações científicas quanto 
-comerciais, oferecendo assim uma relação custo-benefício mais vantajosa.
-
-Segundo Tanenbaum (2003), uma das técnicas desenvolvidas durante a terceira 
-geração foi a multiprogramação, cujo propósito era possibilitar a execução 
-simultânea de diversos programas, compartilhando os recursos de memória.
-
-A demanda por respostas mais ágeis no processamento deu origem ao conceito de 
-compartilhamento de tempo, também conhecido como timesharing. Essa abordagem 
-envolve a divisão do tempo da CPU em intervalos para a execução de cada 
-programa. Nesse período, foi concebido um sistema operacional capaz de 
-suportar múltiplos usuários conectados simultaneamente, conhecido como 
-Multics. Embora o projeto do Multics tenha introduzido conceitos inovadores, 
-foi apenas nos anos subsequentes que surgiu o Unix, um sistema operacional 
-verdadeiramente multitarefa e multiusuário.
-
-A quarta geração de computadores, que se estende desde 1980 até a presente 
-data, marca a era dos computadores pessoais. O rápido desenvolvimento dos 
-circuitos integrados ou microchips (circuitos eletrônicos) foi o catalisador 
-para a introdução dos computadores de uso pessoal.
-
-Desde então, houve uma significativa evolução em termos de agilidade e 
-praticidade desses dispositivos, que se tornaram mais compactos, velozes e 
-acessíveis financeiramente. Os sistemas operacionais predominantes durante essa 
-geração foram o MS-DOS e o Unix. Foi nesse período que se iniciou a 
-utilização de interfaces gráficas, sendo o MS-DOS a base para a evolução que 
-resultou no conhecido sistema operacional Windows.
-
-# Principais funções e serviços dos sistemas operacionais 
-
-**As funções dos sistemas operacionais são: estender a máquina e gerenciar os 
-recursos (TANENBAUM, 2003).** 
-
-## Estender a maquina 
-
-A função do sistema operacional como uma máquina estendida é esconder a 
-complexidade do hardware do programador, conhecida também como abstração.
-
-Um exemplo notável desse comportamento é a abordagem do sistema operacional ao 
-considerar cada dispositivo físico como um arquivo. Ao manipular esses arquivos 
-por meio de comandos de leitura/escrita ou abrir/fechar, os quais podem ser 
-bastante complexos devido à quantidade de parâmetros envolvidos, o sistema 
-operacional assume a responsabilidade de controlar diretamente o dispositivo 
-em relação ao hardware.
-
-## Gerenciar os recursos 
-
-O gerenciamento de recursos no sistema operacional é essencial para controlar 
-de maneira organizada e compartilhada os recursos do computador, como memória, 
-processador e dispositivos de E/S. Suas principais funções incluem garantir a 
-ordem e justiça na distribuição de recursos, monitorar a utilização, mediar 
-conflitos entre programas e usuários, e garantir o atendimento de requisições 
-de recursos de acordo com prioridades estabelecidas.
-
-Esse gerenciamento ocorre por meio do compartilhamento temporal, onde programas 
-aguardam sua vez de utilizar um recurso determinado, e do compartilhamento 
-espacial, permitindo que vários programas utilizem partes específicas do 
-mesmo recurso simultaneamente. Isso resulta em maior eficiência e otimização 
-no uso dos recursos do sistema.
-
-O sistema operacional controla e compartilha recursos do computador de forma 
-ordenada. Por exemplo, ao editar um texto e gravar dados simultaneamente, evita 
-que ambos os programas acessem a memória ao mesmo tempo para evitar perda de 
-dados e conflitos. Isso garante a integridade das operações em andamento.
-
-## Principais serviços do sistema operacional 
-
-O sistema operacional oferece diversos serviços essenciais para aplicativos de 
-usuários e para si mesmo (MACHADO, 1997):
-
-1. **Carregamento e Execução de Programas:**
-   - Facilita o carregamento de programas na memória e a execução dos mesmos.
-
-2. **Sistema de Arquivos:**
-   - Permite a criação, leitura, escrita e exclusão de arquivos, proporcionando 
-   organização e gerenciamento eficiente dos dados.
-
-3. **Interface de Acesso a Periféricos:**
-   - Oferece uma interface para acessar periféricos como impressoras, scanners, 
-   câmeras e pen drives, facilitando a interação com dispositivos externos.
-
-4. **Monitoramento de Recursos:**
-   - Implementa mecanismos de monitoramento para identificar possíveis gargalos 
-   no sistema, permitindo otimizações para melhor desempenho.
-
-5. **Armazenamento e Manutenção do Estado do Sistema:**
-   - Fornece meios para armazenar e manter o estado do sistema, assegurando 
-   consistência e continuidade das operações.
-
-# Evolução dos sistemas operacionais 
+# Sistemas Operacionais: Uma Visão Abrangente
 
 ## Introdução 
 
-Nessa sessão vamos conhecer a estrutura interna dos sistemas operacionais, 
-os tipos e aprenderemos sobre os sistemas operacionais monoprogramáveis, 
-multiprogramáveis e com múltiplos processadores.
+Esta seção explora as diversas aplicações dos sistemas operacionais, destacando como diferentes tipos são empregados em várias situações na área de Tecnologia da Informação.
 
-Os sistemas operacionais modernos são capazes de gerenciar eficientemente 
-vários programas simultâneos, como navegadores, editores de texto e tarefas 
-em segundo plano, como antivírus e atualizações. Isso é possível devido à 
-capacidade multitarefa desses sistemas.
+Os conceitos fundamentais dos sistemas operacionais, como segurança, permissão de acesso, armazenamento de dados e recuperação de informações, permeiam todas as vertentes da TI. Dominar esses conceitos aprimora as habilidades dos profissionais de TI em suas esferas de atuação.
 
-## Núcleo do sistema operacional 
+Os Sistemas Operacionais evoluíram em paralelo ao progresso dos computadores. Inicialmente, sem sistemas operacionais, os computadores eram manipulados manualmente. Atualmente, esses sistemas desempenham diversas funções, assumindo o controle efetivo do hardware e facilitando tanto o usuário quanto os programadores.
 
-O sistema operacional é essencialmente constituído por um conjunto de rotinas 
-denominado kernel ou núcleo. O kernel é o componente central dos sistemas 
-operacionais, sendo responsável pelo gerenciamento dos recursos do 
-computador (MACHADO; MAIA, 2007).
+## Definição, Conceitos e Breve Histórico dos Sistemas Operacionais
 
-Ao ser ligado, o kernel do sistema operacional executa programas que inicializam 
-o computador, seguindo uma ordem lógica. Suas principais funções, conforme 
-Siqueira (2018), incluem:
+De acordo com Tanenbaum (2003), o sistema operacional é uma parte crucial de qualquer sistema computacional. Sem eles, os sistemas funcionariam, mas o usuário teria que compreender detalhes de hardware, tornando o processo complexo.
 
-1. **Tratamento de Interrupções e Exceções:** Garante a estabilidade do sistema.
-2. **Gerenciamento de Processos e Threads:** Sincroniza, comunica e escalona 
-processos para otimizar o uso do processador.
-3. **Gerenciamento de Memória:** Supervisiona a alocação eficiente de memória.
-4. **Gerenciamento de Sistemas de Arquivos:** Controla operações em arquivos, 
-como criação e leitura.
-5. **Gerenciamento de Dispositivos de Entrada/Saída:** Coordena interações com 
-dispositivos como teclado e mouse.
-6. **Auditoria e Segurança do Sistema:** Monitora atividades e implementa 
-medidas de segurança.
+Um sistema computacional é composto por hardware e software. Os hardwares são os componentes físicos, enquanto o software consiste em programas instalados no hardware para executar tarefas específicas.
 
-Os sistemas operacionais restringem as ações dos programas para garantir 
-segurança e estabilidade, especialmente no acesso à memória do computador. 
-Os modos de acesso aos serviços do núcleo determinam os privilégios de 
-execução de um programa, assegurando que um programa não invada a memória 
-de outro, garantindo a integridade do sistema.
+O sistema operacional controla o computador, gerenciando recursos de hardware e facilitando a interação entre hardware e software. Ele conecta eficientemente o usuário do computador aos componentes físicos, garantindo a integridade e segurança dos dados.
 
-Os modos de acesso ocorrem em duas formas: usuário e kernel (núcleo). No modo 
-usuário, os programas podem realizar ações sem privilégios especiais, como a 
-leitura de um arquivo. Já no modo kernel, o acesso pode ocorrer tanto em modo 
-usuário, com privilégios limitados, quanto em modo com privilégio total, 
-permitindo operações críticas, como acesso ao disco.
+Conforme Machado (1997), ao ligar, o computador executa o sistema operacional, que gerencia recursos até o desligamento. O propósito é efetuar o gerenciamento eficiente e produtivo do computador.
 
-Quando um programa é executado, o kernel é consultado para determinar se o 
-acesso será em modo usuário ou kernel. Os acessos aos serviços do núcleo são 
-feitos por meio de chamadas ao sistema, também conhecidas como system calls. 
-Essas chamadas servem como interface entre o sistema operacional e os 
-programas dos usuários, permitindo solicitar serviços como acesso ao disco 
-rígido, criação e execução de processos, entre outros.
+### Breve Histórico dos Sistemas Operacionais
 
-Durante uma chamada ao sistema, o sistema operacional recebe um comando 
-(como abrir um arquivo) e seus parâmetros. A resposta à chamada pode ser um 
-código indicando sucesso (se a abertura do arquivo foi bem-sucedida), falha 
-(em caso de erro na abertura) ou o resultado do comando em si 
-(como o arquivo aberto para o usuário).
+A evolução dos sistemas operacionais acompanhou o avanço da arquitetura dos computadores. As gerações incluem válvulas na primeira (1945-1955), transistores na segunda (1955-1965) e Circuitos Integrados na terceira (1965-1980). A terceira geração introduziu a multiprogramação e o conceito de compartilhamento de tempo.
 
-# Modelo das principais arquiteturas dos sistemas operacionais
+A quarta geração (1980 até o presente) marcou a era dos computadores pessoais, com MS-DOS e Unix. O desenvolvimento de interfaces gráficas iniciou a evolução para o Windows.
 
-## Sistemas Monolíticos
+# Principais Funções e Serviços dos Sistemas Operacionais 
 
-No sistema monolítico, o sistema operacional é desenvolvido como um conjunto 
-de módulos compilados separadamente, que são posteriormente agrupados em um 
-arquivo executável. Nesse modelo, cada procedimento pode ser chamado por 
-outros quando necessário, proporcionando uma integração interna eficiente. 
-A principal vantagem do sistema monolítico reside na simplicidade e 
-eficiência, permitindo a exploração detalhada do hardware. Um exemplo notável 
-desse tipo de sistema é o sistema operacional MS-DOS.
+**As funções dos sistemas operacionais são: estender a máquina e gerenciar os recursos (TANENBAUM, 2003).** 
 
+## Estender a Máquina 
 
-## Sistemas em camadas 
+O sistema operacional como máquina estendida esconde a complexidade do hardware do programador, proporcionando abstração. Um exemplo é considerar cada dispositivo físico como um arquivo.
 
-Os sistemas em camadas organizam o sistema operacional como uma hierarquia de 
-camadas construídas uma sobre a outra. Cada camada oferece um conjunto de 
-funções utilizadas pelas camadas superiores (TANENBAUM, 2003).
+## Gerenciar os Recursos 
 
-## Máquinas Vituais
+O gerenciamento de recursos é essencial para controlar e compartilhar ordenadamente os recursos do computador. Suas funções incluem garantir a ordem na distribuição de recursos, monitorar a utilização, mediar conflitos e garantir atendimento de requisições.
 
-Uma máquina virtual (VM) assemelha-se a uma máquina real, criando um nível 
-intermediário entre o sistema operacional e o hardware. Esse nível gera várias 
-máquinas virtuais independentes, cada uma com uma cópia virtual do hardware. 
-Em um mesmo hardware e em plataformas diferentes, é possível executar mais de 
-uma máquina virtual (MACHADO; MAIA, 2007). As principais vantagens incluem a 
-otimização de recursos, garantia de segurança e confiabilidade, pois problemas 
-em uma máquina virtual não afetam as outras, além de facilitar a recuperação 
-de dados e backups.
+O sistema operacional controla e compartilha recursos do computador de forma ordenada, garantindo integridade das operações em andamento.
 
-## Modo cliente-servidor
+## Principais Serviços do Sistema Operacional 
 
-No modelo cliente-servidor, a ênfase é colocada na implementação da maior 
-parte das funções em modo usuário. O kernel concentra-se na comunicação entre 
-cliente e servidor. 
-Essa divisão do sistema operacional em partes como servidor de processos, 
-de terminais, de arquivos e de memória torna cada componente gerenciável.
+1. **Carregamento e Execução de Programas:**
+   - Facilita o carregamento e execução de programas na memória.
 
-Todos os servidores operam em modo usuário, o que significa que eventuais 
-erros em um servidor, como no servidor de arquivos, não afetarão os demais 
-servidores (TANENBAUM, 2003).
+2. **Sistema de Arquivos:**
+   - Permite criação, leitura, escrita e exclusão de arquivos, organizando e gerenciando dados eficientemente.
+
+3. **Interface de Acesso a Periféricos:**
+   - Oferece interface para acessar periféricos, facilitando interação com dispositivos externos.
+
+4. **Monitoramento de Recursos:**
+   - Implementa mecanismos de monitoramento para otimizar o desempenho do sistema.
+
+5. **Armazenamento e Manutenção do Estado do Sistema:**
+   - Fornece meios para armazenar e manter o estado do sistema, assegurando consistência e continuidade.
+
+# Evolução dos Sistemas Operacionais 
+
+## Introdução 
+
+Nesta seção, exploramos a estrutura interna, os tipos e aprendemos sobre sistemas operacionais monoprogramáveis, multiprogramáveis e com múltiplos processadores.
+
+Os sistemas operacionais modernos gerenciam eficientemente vários programas simultâneos, graças à capacidade multitarefa.
+
+## Núcleo do Sistema Operacional 
+
+O sistema operacional é essencialmente constituído por um conjunto de rotinas chamado kernel. O kernel é responsável pelo gerenciamento dos recursos do computador.
+
+As principais funções do kernel, conforme Siqueira (2018), incluem tratamento de interrupções, gerenciamento de processos, memória, sistemas de arquivos, dispositivos de entrada/saída, auditoria e segurança do sistema.
+
+Os sistemas operacionais restringem ações dos programas para garantir segurança e estabilidade. Os modos de acesso determinam os privilégios de execução, ocorrendo em modo usuário e kernel.
+
+## Modelos das Principais Arquiteturas dos Sistemas Operacionais
+
+### Sistemas Monolíticos
+
+Desenvolvidos como módulos compilados separadamente, agrupados em um executável. Exemplo notável é o MS-DOS.
+
+### Sistemas em Camadas
+
+Organizam-se como uma hierarquia de camadas construídas uma sobre a outra.
+
+### Máquinas Virtuais
+
+Criam um nível intermediário entre o sistema operacional e o hardware, permitindo várias máquinas virtuais independentes.
+
+### Modo Cliente-Servidor
+
+Ênfase na implementação da maioria das funções em modo usuário, com o kernel concentrando-se na comunicação entre cliente e servidor.
 
 ## Classificação dos Sistemas Operacionais
 
-Conforme Machado e Maia (2007), os sistemas operacionais podem ser categorizados em:
+Conforme Machado e Maia (2007), os sistemas operacionais podem ser monoprogramáveis, multiprogramáveis e com múltiplos processadores.
 
 1. **Monoprogramáveis/Monotarefa:**
-   - Executam um único programa por vez, alocando todos os recursos da máquina para o programa em execução.
-   - Exemplo: MS-DOS.
-   - Utilizado nos primeiros computadores pessoais a partir da década de 1960.
+   - Executam um único programa por vez, alocando todos os recursos da máquina para o programa em execução. Exemplo: MS-DOS.
 
 2. **Multiprogramáveis/Multitarefa:**
-   - Compartilham os recursos do computador entre vários programas.
-   - Evitam a ociosidade da CPU.
-   - Classificação baseada no gerenciamento de aplicações e no número de usuários.
+   - Compartilham recursos entre vários programas, evitando ociosidade da CPU. Classificação baseada no número de usuários e maneira de gerenciamento de aplicações.
 
-    - **Número de Usuários:**
-        - *Monousuários:* Apenas um usuário utiliza os recursos da máquina.
-        - *Multiusuário:* Múltiplos usuários logados, compartilhando os recursos.
+    - **Número de
+
+ Usuários:**
+        - *Monousuários:* Um usuário utiliza os recursos.
+        - *Multiusuário:* Múltiplos usuários compartilham recursos.
 
     - **Maneira de Gerenciamento de Aplicações:**
-        - *Sistema Batch:* Inicialmente, os primeiros sistemas multiprogramáveis. Os processamentos eram 
-        realizados por lotes de registros, conhecidos como "jobs". Os programas eram executados através de 
-        cartões perfurados, armazenados em discos ou fitas, aguardando processamento.
-        
-        - *Sistemas de Tempo Compartilhado (Time-sharing):* Permite que vários programas sejam executados 
-        através da divisão do tempo do processador em pequenos intervalos, conhecido como fatia de tempo 
-        (time-slice). Cada usuário possui um ambiente de trabalho próprio, dando a impressão de que o 
-        sistema está dedicado exclusivamente a ele. Se o tempo destinado à execução de um programa não for 
-        suficiente, o programa é interrompido, aguardando uma nova fatia de tempo para executar. Os comandos 
-        são respondidos em segundos, tornando esses sistemas conhecidos como sistemas online.
-
-        - *Sistemas de Tempo Real (Real-time):* O tempo é o principal parâmetro; um programa utiliza os 
-        recursos da máquina até que apareça outro com maior prioridade. Os prazos são rigorosos em relação 
-        à execução de uma tarefa. Esses sistemas são aplicados em processos de controle industrial, controle 
-        de tráfego aéreo ou em qualquer aplicação onde o tempo de resposta é o fator fundamental.
-
+        - *Sistema Batch:* Processamento por lotes de registros.
+        - *Sistemas de Tempo Compartilhado:* Permite execução simultânea de vários programas.
+        - *Sistemas de Tempo Real:* Prazos rigorosos para execução de tarefas.
 
 3. **Sistemas com Múltiplos Processadores:**
-   - Integram duas ou mais CPUs em um único sistema.
-   - Permitem a execução simultânea de diversos programas, otimizando o desempenho.
-   - Possibilitam a subdivisão de programas para execução em diferentes processadores.
-   - Demandam gerenciamento complexo das CPUs devido à sua natureza.
-   - Aplicações comuns incluem simulações e prospecção de petróleo.
+   - Integram duas ou mais CPUs em um único sistema, permitindo execução simultânea de diversos programas.
 
-      ## Classificação dos Sistemas com Múltiplos Processadores
+### Classificação dos Sistemas com Múltiplos Processadores
 
-Os sistemas com múltiplos processadores podem ser categorizados em duas principais classes:
-
-### 1. Sistemas Fortemente Acoplados:
+#### 1. Sistemas Fortemente Acoplados:
 
    - **Simétricos:**
-     - Os processadores compartilham uma única memória e utilizam o mesmo sistema operacional.
-     - Utilizam paralelismo, permitindo a execução concorrente de partes de programas em processadores disponíveis.
-     - O aumento do processamento é alcançado através do processamento paralelo.
-     - Tanto o Windows quanto o Linux oferecem suporte para sistemas simétricos.
+     - Processadores compartilham memória e usam o mesmo sistema operacional, permitindo paralelismo.
 
    - **Assimétricos:**
-     - Um processador principal (mestre) controla o sistema e distribui tarefas aos demais processadores.
-     - Em caso de falha no processador principal, o processamento é interrompido nos demais.
+     - Um processador principal controla o sistema e distribui tarefas.
 
-### 2. Sistemas Fracamente Acoplados:
+#### 2. Sistemas Fracamente Acoplados:
 
    - Funcionam de forma independente, cada um com seu próprio sistema operacional e gestão de recursos.
-   - Gerenciam autonomamente memória, CPU e dispositivos de entrada e saída.
 
-Essa classificação fornece uma visão abrangente das diferentes configurações de sistemas com múltiplos processadores, considerando o nível de acoplamento entre os componentes e a autonomia operacional de cada sistema.
-
-
+Esta classificação oferece uma visão abrangente das configurações de sistemas com múltiplos processadores, considerando o nível de acoplamento entre os componentes e a autonomia operacional de cada sistema.
