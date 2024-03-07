@@ -307,5 +307,13 @@ Conforme Machado e Maia (2007), os sistemas operacionais podem ser categorizados
         de tráfego aéreo ou em qualquer aplicação onde o tempo de resposta é o fator fundamental.
 
 
-3. **sistemas com múltiplos processadores:**
+3. **Sistemas com Múltiplos Processadores:**
+
+   O conceito de sistemas com múltiplos processadores refere-se à presença de duas ou mais CPUs interligadas em um mesmo sistema. Essa abordagem apresenta as seguintes características:
+
+   - Permite a execução simultânea de diversos programas, otimizando o desempenho do sistema.
+   - Possibilita a subdivisão de um programa, permitindo sua execução simultânea em mais de um processador.
+   - Devido à sua natureza, os sistemas com múltiplos processadores são complexos e demandam uma parte do tempo para gerenciamento eficiente das CPUs.
+   - Encontram-se amplamente presentes em aplicações como simulações e prospecção de petróleo.
+
 
