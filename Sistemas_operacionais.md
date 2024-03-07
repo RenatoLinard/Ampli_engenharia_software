@@ -128,3 +128,4 @@ Conforme Machado e Maia (2007), os sistemas operacionais podem ser monoprogramá
    - Funcionam de forma independente, cada um com seu próprio sistema operacional e gestão de recursos.
 
 Esta classificação oferece uma visão abrangente das configurações de sistemas com múltiplos processadores, considerando o nível de acoplamento entre os componentes e a autonomia operacional de cada sistema.
+
