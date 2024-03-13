@@ -186,7 +186,7 @@ usuário são armazenados na nuvem. Um exemplo notável é o Chrome OS.
 Estes são os menores sistemas operacionais, dispositivos do tamanho de um cartão de crédito que 
 contêm um chip de CPU.
 
-# Sistema Operacional Unix
+## Sistema Operacional Unix
 
 O Unix foi inicialmente desenvolvido em assembly, mas para facilitar sua adaptação a diferentes 
 plataformas, foi reescrito em linguagem C.
@@ -213,3 +213,28 @@ Sua função é ler e interpretar os comandos, criando processos conforme necess
 - **Sistema de Arquivos:** Responsável pela organização dos dados armazenados por meio de arquivos e diretórios.
 
 - **Aplicações:** Refere-se às aplicações utilizadas pelo usuário.
+
+# Sistema Operacional Linux
+
+O sistema operacional Linux foi desenvolvido por Linus Torvalds, inspirado nas características do sistema 
+Minix. O termo "Linux" refere-se especificamente ao kernel do sistema.
+
+Os programas que interagem com o kernel foram desenvolvidos pela Fundação GNU. Vale destacar que o Linux, 
+por si só, é apenas o kernel, sendo necessário incluir ferramentas como o compilador de código-fonte 
+para seu pleno funcionamento. Por essa razão, é correto denominá-lo como GNU/Linux.
+
+O sistema cresceu rapidamente com a contribuição de diversos colaboradores ao redor do mundo, 
+participando do desenvolvimento do kernel, utilitários e aplicativos. Atualmente, é utilizado tanto para 
+fins acadêmicos quanto comerciais, podendo ser obtido sem custos, juntamente com o código-fonte.
+
+Reconhecido por sua flexibilidade e adaptabilidade às necessidades do usuário, o Linux também destaca-se 
+por sua compatibilidade com diversos hardwares, oferecendo alta estabilidade e desempenho.
+
+Sua estrutura é baseada no modelo monolítico, compartilhando características e composição com o UNIX.
+
+O Linux possui várias distribuições disponíveis, e cada uma apresenta características específicas para 
+atender às diversas necessidades dos usuários.
+
+Licenciado pela GNU, o Linux permite que os usuários o baixem e utilizem em quantas máquinas desejarem. 
+Com código-fonte aberto, proporciona uma administração efetiva do sistema por meio da linha de comando, 
+além de oferecer um ambiente gráfico adaptável às preferências do usuário.
