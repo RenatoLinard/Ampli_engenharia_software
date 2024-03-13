@@ -186,4 +186,30 @@ usuário são armazenados na nuvem. Um exemplo notável é o Chrome OS.
 Estes são os menores sistemas operacionais, dispositivos do tamanho de um cartão de crédito que 
 contêm um chip de CPU.
 
+# Sistema Operacional Unix
 
+O Unix foi inicialmente desenvolvido em assembly, mas para facilitar sua adaptação a diferentes 
+plataformas, foi reescrito em linguagem C.
+
+Trata-se de um sistema multiprogramável e multiusuário que suporta multiprocessadores e implementa 
+memória virtual. Sua escrita em uma linguagem de alto nível o torna de fácil compreensão e portabilidade 
+para diversas plataformas. A flexibilidade do Unix permite sua utilização em diversas aplicações, oferecendo 
+suporte a protocolos de rede, um sistema de arquivos e uma interface simples e uniforme com os 
+dispositivos de entrada/saída.
+
+O sistema é baseado em uma estrutura monolítica, onde as funções são executadas no modo núcleo. Ele é composto por:
+
+- **Kernel:** O núcleo do sistema operacional, dividido em duas partes:
+    - **Dependente do hardware:** Formada por conjuntos de instruções específicas para lidar com 
+    interrupções e situações excepcionais. Esta parte precisa ser reescrita ou adaptada durante a 
+    instalação do sistema.
+    - **Independente do hardware:** Não está vinculada ou dependente de uma plataforma específica onde 
+    está sendo executada. Essa parte do sistema é responsável por tarefas como o tratamento de chamadas 
+    de sistema (system calls), a gestão de processos, a gestão de memória e outras funções.
+
+- **Shell:** Responsável pela interação do sistema operacional com o usuário por meio da linha de comando. 
+Sua função é ler e interpretar os comandos, criando processos conforme necessário.
+
+- **Sistema de Arquivos:** Responsável pela organização dos dados armazenados por meio de arquivos e diretórios.
+
+- **Aplicações:** Refere-se às aplicações utilizadas pelo usuário.
