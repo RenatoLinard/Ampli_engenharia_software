@@ -2,27 +2,43 @@
 
 ## Introdução 
 
-Esta seção explora as diversas aplicações dos sistemas operacionais, destacando como diferentes tipos são empregados em várias situações na área de Tecnologia da Informação.
+Esta seção explora as diversas aplicações dos sistemas operacionais, destacando como diferentes tipos 
+são empregados em várias situações na área de Tecnologia da Informação.
 
-Os conceitos fundamentais dos sistemas operacionais, como segurança, permissão de acesso, armazenamento de dados e recuperação de informações, permeiam todas as vertentes da TI. Dominar esses conceitos aprimora as habilidades dos profissionais de TI em suas esferas de atuação.
+Os conceitos fundamentais dos sistemas operacionais, como segurança, permissão de acesso, armazenamento 
+de dados e recuperação de informações, permeiam todas as vertentes da TI. Dominar esses conceitos aprimora 
+as habilidades dos profissionais de TI em suas esferas de atuação.
 
-Os Sistemas Operacionais evoluíram em paralelo ao progresso dos computadores. Inicialmente, sem sistemas operacionais, os computadores eram manipulados manualmente. Atualmente, esses sistemas desempenham diversas funções, assumindo o controle efetivo do hardware e facilitando tanto o usuário quanto os programadores.
+Os Sistemas Operacionais evoluíram em paralelo ao progresso dos computadores. Inicialmente, sem sistemas 
+operacionais, os computadores eram manipulados manualmente. Atualmente, esses sistemas desempenham 
+diversas funções, assumindo o controle efetivo do hardware e facilitando tanto o usuário quanto os 
+programadores.
 
 ## Definição, Conceitos e Breve Histórico dos Sistemas Operacionais
 
-De acordo com Tanenbaum (2003), o sistema operacional é uma parte crucial de qualquer sistema computacional. Sem eles, os sistemas funcionariam, mas o usuário teria que compreender detalhes de hardware, tornando o processo complexo.
+De acordo com Tanenbaum (2003), o sistema operacional é uma parte crucial de qualquer sistema computacional. 
+Sem eles, os sistemas funcionariam, mas o usuário teria que compreender detalhes de hardware, tornando 
+o processo complexo.
 
-Um sistema computacional é composto por hardware e software. Os hardwares são os componentes físicos, enquanto o software consiste em programas instalados no hardware para executar tarefas específicas.
+Um sistema computacional é composto por hardware e software. Os hardwares são os componentes físicos, 
+enquanto o software consiste em programas instalados no hardware para executar tarefas específicas.
 
-O sistema operacional controla o computador, gerenciando recursos de hardware e facilitando a interação entre hardware e software. Ele conecta eficientemente o usuário do computador aos componentes físicos, garantindo a integridade e segurança dos dados.
+O sistema operacional controla o computador, gerenciando recursos de hardware e facilitando a interação 
+entre hardware e software. Ele conecta eficientemente o usuário do computador aos componentes físicos, 
+garantindo a integridade e segurança dos dados.
 
-Conforme Machado (1997), ao ligar, o computador executa o sistema operacional, que gerencia recursos até o desligamento. O propósito é efetuar o gerenciamento eficiente e produtivo do computador.
+Conforme Machado (1997), ao ligar, o computador executa o sistema operacional, que gerencia recursos até 
+o desligamento. O propósito é efetuar o gerenciamento eficiente e produtivo do computador.
 
 ### Breve Histórico dos Sistemas Operacionais
 
-A evolução dos sistemas operacionais acompanhou o avanço da arquitetura dos computadores. As gerações incluem válvulas na primeira (1945-1955), transistores na segunda (1955-1965) e Circuitos Integrados na terceira (1965-1980). A terceira geração introduziu a multiprogramação e o conceito de compartilhamento de tempo.
+A evolução dos sistemas operacionais acompanhou o avanço da arquitetura dos computadores. As gerações 
+incluem válvulas na primeira (1945-1955), transistores na segunda (1955-1965) e Circuitos Integrados na 
+terceira (1965-1980). A terceira geração introduziu a multiprogramação e o conceito de compartilhamento 
+de tempo.
 
-A quarta geração (1980 até o presente) marcou a era dos computadores pessoais, com MS-DOS e Unix. O desenvolvimento de interfaces gráficas iniciou a evolução para o Windows.
+A quarta geração (1980 até o presente) marcou a era dos computadores pessoais, com MS-DOS e Unix. O 
+desenvolvimento de interfaces gráficas iniciou a evolução para o Windows.
 
 # Principais Funções e Serviços dos Sistemas Operacionais 
 
@@ -30,13 +46,17 @@ A quarta geração (1980 até o presente) marcou a era dos computadores pessoais
 
 ## Estender a Máquina 
 
-O sistema operacional como máquina estendida esconde a complexidade do hardware do programador, proporcionando abstração. Um exemplo é considerar cada dispositivo físico como um arquivo.
+O sistema operacional como máquina estendida esconde a complexidade do hardware do programador, proporcionando 
+abstração. Um exemplo é considerar cada dispositivo físico como um arquivo.
 
 ## Gerenciar os Recursos 
 
-O gerenciamento de recursos é essencial para controlar e compartilhar ordenadamente os recursos do computador. Suas funções incluem garantir a ordem na distribuição de recursos, monitorar a utilização, mediar conflitos e garantir atendimento de requisições.
+O gerenciamento de recursos é essencial para controlar e compartilhar ordenadamente os recursos do 
+computador. Suas funções incluem garantir a ordem na distribuição de recursos, monitorar a utilização, 
+mediar conflitos e garantir atendimento de requisições.
 
-O sistema operacional controla e compartilha recursos do computador de forma ordenada, garantindo integridade das operações em andamento.
+O sistema operacional controla e compartilha recursos do computador de forma ordenada, garantindo 
+integridade das operações em andamento.
 
 ## Principais Serviços do Sistema Operacional 
 
@@ -59,23 +79,30 @@ O sistema operacional controla e compartilha recursos do computador de forma ord
 
 ## Introdução 
 
-Nesta seção, exploramos a estrutura interna, os tipos e aprendemos sobre sistemas operacionais monoprogramáveis, multiprogramáveis e com múltiplos processadores.
+Nesta seção, exploramos a estrutura interna, os tipos e aprendemos sobre sistemas operacionais 
+monoprogramáveis, multiprogramáveis e com múltiplos processadores.
 
-Os sistemas operacionais modernos gerenciam eficientemente vários programas simultâneos, graças à capacidade multitarefa.
+Os sistemas operacionais modernos gerenciam eficientemente vários programas simultâneos, graças à 
+capacidade multitarefa.
 
 ## Núcleo do Sistema Operacional 
 
-O sistema operacional é essencialmente constituído por um conjunto de rotinas chamado kernel. O kernel é responsável pelo gerenciamento dos recursos do computador.
+O sistema operacional é essencialmente constituído por um conjunto de rotinas chamado kernel. O kernel 
+é responsável pelo gerenciamento dos recursos do computador.
 
-As principais funções do kernel, conforme Siqueira (2018), incluem tratamento de interrupções, gerenciamento de processos, memória, sistemas de arquivos, dispositivos de entrada/saída, auditoria e segurança do sistema.
+As principais funções do kernel, conforme Siqueira (2018), incluem tratamento de interrupções, 
+gerenciamento de processos, memória, sistemas de arquivos, dispositivos de entrada/saída, auditoria e 
+segurança do sistema.
 
-Os sistemas operacionais restringem ações dos programas para garantir segurança e estabilidade. Os modos de acesso determinam os privilégios de execução, ocorrendo em modo usuário e kernel.
+Os sistemas operacionais restringem ações dos programas para garantir segurança e estabilidade. Os modos 
+de acesso determinam os privilégios de execução, ocorrendo em modo usuário e kernel.
 
 ## Modelos das Principais Arquiteturas dos Sistemas Operacionais
 
 ### Sistemas Monolíticos
 
-Desenvolvidos como módulos compilados separadamente, agrupados em um executável. Exemplo notável é o MS-DOS.
+Desenvolvidos como módulos compilados separadamente, agrupados em um executável. Exemplo 
+notável é o MS-DOS.
 
 ### Sistemas em Camadas
 
@@ -83,21 +110,26 @@ Organizam-se como uma hierarquia de camadas construídas uma sobre a outra.
 
 ### Máquinas Virtuais
 
-Criam um nível intermediário entre o sistema operacional e o hardware, permitindo várias máquinas virtuais independentes.
+Criam um nível intermediário entre o sistema operacional e o hardware, permitindo várias máquinas 
+virtuais independentes.
 
 ### Modo Cliente-Servidor
 
-Ênfase na implementação da maioria das funções em modo usuário, com o kernel concentrando-se na comunicação entre cliente e servidor.
+Ênfase na implementação da maioria das funções em modo usuário, com o kernel concentrando-se na 
+comunicação entre cliente e servidor.
 
 ## Classificação dos Sistemas Operacionais
 
-Conforme Machado e Maia (2007), os sistemas operacionais podem ser monoprogramáveis, multiprogramáveis e com múltiplos processadores.
+Conforme Machado e Maia (2007), os sistemas operacionais podem ser monoprogramáveis, multiprogramáveis 
+e com múltiplos processadores.
 
 1. **Monoprogramáveis/Monotarefa:**
-   - Executam um único programa por vez, alocando todos os recursos da máquina para o programa em execução. Exemplo: MS-DOS.
+   - Executam um único programa por vez, alocando todos os recursos da máquina para o programa em 
+   execução. Exemplo: MS-DOS.
 
 2. **Multiprogramáveis/Multitarefa:**
-   - Compartilham recursos entre vários programas, evitando ociosidade da CPU. Classificação baseada no número de usuários e maneira de gerenciamento de aplicações.
+   - Compartilham recursos entre vários programas, evitando ociosidade da CPU. Classificação baseada 
+   no número de usuários e maneira de gerenciamento de aplicações.
 
     - **Número de
 
@@ -127,5 +159,6 @@ Conforme Machado e Maia (2007), os sistemas operacionais podem ser monoprogramá
 
    - Funcionam de forma independente, cada um com seu próprio sistema operacional e gestão de recursos.
 
-Esta classificação oferece uma visão abrangente das configurações de sistemas com múltiplos processadores, considerando o nível de acoplamento entre os componentes e a autonomia operacional de cada sistema.
+Esta classificação oferece uma visão abrangente das configurações de sistemas com múltiplos processadores, 
+considerando o nível de acoplamento entre os componentes e a autonomia operacional de cada sistema.
 
