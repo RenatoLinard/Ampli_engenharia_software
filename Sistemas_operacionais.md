@@ -162,24 +162,28 @@ e com múltiplos processadores.
 Esta classificação oferece uma visão abrangente das configurações de sistemas com múltiplos processadores, 
 considerando o nível de acoplamento entre os componentes e a autonomia operacional de cada sistema.
 
-# Tipos de Sistemas Operacionais
+# Características e composição dos sistemas operacionais
+
+## Tipos de Sistemas Operacionais
 
 Com o avanço dos computadores, incorporando maior eficiência e praticidade em sua arquitetura, os sistemas 
 operacionais precisam evoluir para atender às necessidades dos dispositivos.
 
-## Sistemas Operacionais Embarcados
+### Sistemas Operacionais Embarcados
 Esses sistemas são empregados em dispositivos portáteis, como smartphones, televisores e micro-ondas. 
 Possuem características de sistemas operacionais de tempo real, no entanto, apresentam limitações de 
 memória e consumo de energia. Um exemplo notável é o WebOS.
 
-## Sistemas Operacionais Mobile
+### Sistemas Operacionais Mobile
 Encontrados em celulares e tablets, esses sistemas são simples e permitem a comunicação de dados sem fio. 
 Exemplos incluem Android e iOS.
 
-## Sistemas Operacionais na Nuvem
+### Sistemas Operacionais na Nuvem
 Nesse modelo, todos os serviços, como bancos de dados e redes, são executados pela internet. Os dados do 
 usuário são armazenados na nuvem. Um exemplo notável é o Chrome OS.
 
-## Sistemas Operacionais de Cartões Inteligentes
+### Sistemas Operacionais de Cartões Inteligentes
 Estes são os menores sistemas operacionais, dispositivos do tamanho de um cartão de crédito que 
 contêm um chip de CPU.
+
+
