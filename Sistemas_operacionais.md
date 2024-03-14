@@ -214,7 +214,7 @@ Sua função é ler e interpretar os comandos, criando processos conforme necess
 
 - **Aplicações:** Refere-se às aplicações utilizadas pelo usuário.
 
-# Sistema Operacional Linux
+## Sistema Operacional Linux
 
 O sistema operacional Linux foi desenvolvido por Linus Torvalds, inspirado nas características do sistema 
 Minix. O termo "Linux" refere-se especificamente ao kernel do sistema.
@@ -238,3 +238,42 @@ atender às diversas necessidades dos usuários.
 Licenciado pela GNU, o Linux permite que os usuários o baixem e utilizem em quantas máquinas desejarem. 
 Com código-fonte aberto, proporciona uma administração efetiva do sistema por meio da linha de comando, 
 além de oferecer um ambiente gráfico adaptável às preferências do usuário.
+
+## Sistema Operacional Windows
+
+Lançado inicialmente em 1981 como MS-DOS com interface em linha de comando e tinha as caracteristicas de ser 
+monoprogramavel e monousuario.
+
+A microsoft decidiu dar ao MS-DOS uma interface grafica chamada windows. As primieiras versões do windows não 
+eram sistemas operacionais e sim uma interface grafica execuntando sobre o MS-DOS.
+
+O windows 95 foi lançado e quase todas as caracteristicas da parte do MS-DOS foram transfeirdos para a parte do windows 
+porem sem eliminar totalmente o MS-DOS, logo apos foi lançado o windows 98 que tinha poucas diferenças em relação ao 95.
+
+O windows 2000 é uma evolução do NT lançado em 93 com um diferencial de oferecer serviços orientados e ambientes 
+distribuidos  e de rede. Escrito em C proporcianando robustez,  confiabilidade, facilidade de manutenção do sistema, 
+portabilidade e desempenho.
+
+A estrutura do windows 2000 pode ser divida em duas parte:
+
+   - modo nuclueo: gerencia memoria, processos, sistemas de arquivos
+   - modo usuario: onde ficam os subsistemas do ambiente e interagem atravez de mensagens
+
+# Sistema Operacional Windows
+
+Lançado inicialmente em 1981 como MS-DOS, com uma interface em linha de comando, o Windows tinha características de ser 
+monoprogramável e monousuário.
+
+A Microsoft decidiu adicionar uma interface gráfica ao MS-DOS, chamada Windows. As primeiras versões do Windows não eram 
+sistemas operacionais completos, mas sim uma interface gráfica que rodava sobre o MS-DOS.
+
+O Windows 95 foi lançado, transferindo quase todas as características da parte do MS-DOS para a parte do Windows, porém 
+sem eliminar completamente o MS-DOS. Logo após, foi lançado o Windows 98, que apresentava poucas diferenças em relação ao 95.
+
+O Windows 2000 é uma evolução do NT, lançado em 1993, com o diferencial de oferecer serviços orientados e ambientes 
+distribuídos e de rede. Escrito em C, proporciona robustez, confiabilidade, facilidade de manutenção do sistema, portabilidade e desempenho.
+
+A estrutura do Windows 2000 pode ser dividida em duas partes:
+
+- Modo núcleo: gerencia memória, processos e sistemas de arquivos.
+- Modo usuário: onde ficam os subsistemas do ambiente e interagem por meio de mensagens.
