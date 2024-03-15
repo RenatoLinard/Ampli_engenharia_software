@@ -58,5 +58,9 @@ Os serviços que os Sistemas Operacionais podem implementar incluem:
 - Serviços de rede
 - Interface de comandos (shell)
 
+## Criação de Processos 
 
+Os sitemas operacionais devem oferecer formas para que os processos sejam criados, portanto existem 
+quatro eventos que fazem com que um processo seja criado.
 
+1 - **inicio do sistema:** 
