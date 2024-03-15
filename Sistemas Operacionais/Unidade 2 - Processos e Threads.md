@@ -76,3 +76,19 @@ comando ou clica em algum ícone para abrir um programa.
 
 4. **Inicio de um job em lote:** Esses são criados em mainframes (computadores de grande porte).
 
+## Término de Processos
+
+Após a criação, um processo pode ser finalizado nas seguintes condições:
+
+1. **Saída normal (voluntária):** O processo finaliza após concluir seu trabalho de forma adequada.
+
+2. **Saída por erro (voluntária):** Ocorre quando um processo tenta acessar um arquivo que não existe, 
+e o sistema emite uma chamada de saída. Em alguns casos, uma caixa de diálogo pode ser exibida perguntando 
+se o usuário deseja tentar executar novamente.
+
+3. **Erro fatal (involuntário):** O processo é finalizado devido a um erro de programa, como a execução 
+ilegal de uma instrução ou a divisão por zero. Nessas situações, um processo com prioridade máxima 
+supervisiona os demais processos e impede a continuação em situações ilegais.
+
+4. **Cancelamento por outro processo:** Um processo com permissão pode emitir uma chamada para cancelar 
+outro processo.
