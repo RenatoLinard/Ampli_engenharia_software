@@ -10,7 +10,7 @@ Existem os processos iniciados pelo usuário e também os processos iniciados po
 
 ## Processos: Conceito e Criação 
 
-Nos computadores, os processos funcionam como uma linha de produção, executando vários programas ao mesmo
+Nos computadores, os processadores funcionam como uma linha de produção, executando vários programas ao mesmo
 tempo de forma sequencial. A CPU é responsável por alternar os programas, executando-os por frações de 
 segundo, para que cada um tenha acesso ao processamento, dando a ilusão ao usuário de paralelismo.
 
@@ -47,4 +47,16 @@ estiver medicado, então a pessoa retornará a fazer o bolo do ponto em que paro
 
 Podemos considerar então que um processo é uma atividade que contém um programa, uma entrada, uma saída e
 um estado. A seguir, veremos a criação de processos e os estados dos processos.
+
+Os serviços que os Sistemas Operacionais podem implementar incluem:
+
+- Auditoria e segurança do sistema
+- Contabilização do uso dos recursos
+- Contabilização de erros
+- Gerenciamento de impressão
+- Comunicação de eventos
+- Serviços de rede
+- Interface de comandos (shell)
+
+
 
