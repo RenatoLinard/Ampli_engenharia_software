@@ -8,7 +8,7 @@ administrá-los por meio do gerenciador de processos.
 
 Existem os processos iniciados pelo usuário e também os processos iniciados por outros processos.
 
-## Processos: Conceito e Criação 
+# Processos: Conceito e Criação 
 
 Nos computadores, os processadores funcionam como uma linha de produção, executando vários programas ao mesmo
 tempo de forma sequencial. A CPU é responsável por alternar os programas, executando-os por frações de 
@@ -92,3 +92,29 @@ supervisiona os demais processos e impede a continuação em situações ilegais
 
 4. **Cancelamento por outro processo:** Um processo com permissão pode emitir uma chamada para cancelar 
 outro processo.
+
+# Hierarquia de Processos
+
+Em alguns sistemas, quando um processo cria outro, o processo-pai fica associado ao processo-filho, e o 
+filho pode criar outros processos, criando assim uma hierarquia de processos.
+
+No Windows, não há uma hierarquia de processo clara. Cada processo possui um identificador próprio e, 
+quando um cria outro, há uma ligação entre eles, mas essa ligação pode ser quebrada quando um processo-pai 
+passa seu identificador para outro processo. Quando o processo-pai é finalizado, os processos vinculados 
+a ele não são automaticamente finalizados.
+
+## Estados de Processos
+
+Durante o processamento, os processos podem passar por diferentes estados. Um processo ativo pode estar 
+em três estados:
+
+1. **Em execução:** Quando está sendo processado pela CPU, os processos são alternados para utilização do 
+processador.
+
+2. **Pronto:** Quando possui todas as condições necessárias para executar e está aguardando. O sistema 
+operacional decide a ordem e os critérios para a execução dos processos.
+
+3. **Espera ou bloqueado:** Quando está aguardando um evento externo, como um comando do usuário ou por 
+um recurso para executar.
+
+
