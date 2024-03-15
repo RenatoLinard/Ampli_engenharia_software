@@ -58,9 +58,21 @@ Os serviços que os Sistemas Operacionais podem implementar incluem:
 - Serviços de rede
 - Interface de comandos (shell)
 
-## Criação de Processos 
+## Criação de Processos
 
-Os sitemas operacionais devem oferecer formas para que os processos sejam criados, portanto existem 
-quatro eventos que fazem com que um processo seja criado.
+Os sistemas operacionais devem oferecer formas para que os processos sejam criados. Portanto, existem 
+quatro eventos que fazem com que um processo seja criado:
 
-1 - **inicio do sistema:** 
+1. **Inicio do sistema:** Quando o sistema é inicializado, são criados vários processos. Os de primeiro 
+plano interagem com o usuário e suas aplicações, enquanto os de segundo plano possuem alguma função 
+específica, como atualizar emails quando uma mensagem é recebida. Para visualizar os processos no Windows, 
+utiliza-se o comando Ctrl + Alt + Del e no Linux, o comando `ps`.
+
+2. **Execução de uma chamada ao sistema de criação por um processo em execução:** Por exemplo, quando um 
+processo está fazendo um download e aciona outro para armazenar os dados.
+
+3. **Requisição do usuário para criar um novo processo:** Isso acontece quando o usuário digita algum 
+comando ou clica em algum ícone para abrir um programa.
+
+4. **Inicio de um job em lote:** Esses são criados em mainframes (computadores de grande porte).
+
