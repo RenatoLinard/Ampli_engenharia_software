@@ -192,3 +192,22 @@ recursos simultaneamente, como arquivos, dispositivos de E/S e memória.
 
 ## Execução cooperativa de processos e threads
 
+Em uma aplicação concorrente, onde ocorre a execução cooperativa de processos e threads, é necessário que 
+os processos se comuniquem entre si e solicitem o uso de recursos, como memória, arquivos, dispositivos 
+de E/S e registros.
+
+Por exemplo, uma região da memória pode ser compartilhada entre vários processos. O Sistema Operacional 
+precisa garantir que essa comunicação seja sincronizada para o bom funcionamento do sistema e execução 
+correta das aplicações.
+
+Três tópicos devem ser considerados:
+
+1. Como um processo passa informações para outro.
+2. Garantia de que os processos não invadam uns aos outros quando estiverem em regiões críticas. Quando 
+um processo estiver utilizando uma região da memória, outro precisa aguardar sua vez.
+3. Hierarquia necessária quando houver dependências. Se o processo A produz dados e o processo B os 
+imprime, o B precisa aguardar o processo A produzir os dados para depois imprimi-los.
+
+### Condições de disputa ou condições de corrida 
+
+
