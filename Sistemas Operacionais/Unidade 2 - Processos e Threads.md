@@ -160,3 +160,18 @@ contendo informações cruciais sobre cada processo em execução, como estado, 
 da pilha, alocação de memória e status dos arquivos abertos. Essas informações permitem que o sistema 
 operacional reinicie um processo a partir do ponto em que ele foi interrompido, garantindo uma execução 
 eficiente e concorrente de múltiplos processos.
+
+## Implementação de Threads
+
+A implementação de threads pode ocorrer no espaço do usuário, no núcleo do SO ou em uma implementação híbrida.
+
+1. **Thread de usuário:** São criadas e gerenciadas no espaço de usuário que as criou, pela própria 
+aplicação do usuário, sem que o SO tenha conhecimento direto delas. Não há necessidade de transição para 
+o modo kernel do SO. Sua vantagem é a agilidade e eficiência.
+
+2. **Thread do núcleo:** São implementadas e gerenciadas pelo núcleo do SO. Possuem uma menor performance, 
+pois o gerenciamento é feito através de chamadas ao sistema.
+
+3. **Threads híbridas:** São implementadas tanto no espaço do usuário quanto no núcleo do sistema 
+operacional. Nesse modelo, o sistema operacional tem conhecimento das threads criadas pela aplicação e 
+realiza seu gerenciamento. Uma das principais vantagens desse tipo de implementação é a flexibilidade que ela proporciona.
