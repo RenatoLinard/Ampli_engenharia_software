@@ -1,4 +1,4 @@
-# Introdução
+# Processos
 
 Nesta seção, serão apresentados os conceitos, características, hierarquia e os estados dos processos e 
 threads, bem como a criação e o término de processos.
@@ -8,7 +8,7 @@ administrá-los por meio do gerenciador de processos.
 
 Existem os processos iniciados pelo usuário e também os processos iniciados por outros processos.
 
-# Processos: Conceito e Criação 
+## Processos: Conceito e Criação 
 
 Nos computadores, os processadores funcionam como uma linha de produção, executando vários programas ao mesmo
 tempo de forma sequencial. A CPU é responsável por alternar os programas, executando-os por frações de 
@@ -58,7 +58,7 @@ Os serviços que os Sistemas Operacionais podem implementar incluem:
 - Serviços de rede
 - Interface de comandos (shell)
 
-## Criação de Processos
+### Criação de Processos
 
 Os sistemas operacionais devem oferecer formas para que os processos sejam criados. Portanto, existem 
 quatro eventos que fazem com que um processo seja criado:
@@ -76,7 +76,7 @@ comando ou clica em algum ícone para abrir um programa.
 
 4. **Inicio de um job em lote:** Esses são criados em mainframes (computadores de grande porte).
 
-## Término de Processos
+### Término de Processos
 
 Após a criação, um processo pode ser finalizado nas seguintes condições:
 
@@ -93,7 +93,7 @@ supervisiona os demais processos e impede a continuação em situações ilegais
 4. **Cancelamento por outro processo:** Um processo com permissão pode emitir uma chamada para cancelar 
 outro processo.
 
-# Hierarquia de Processos
+## Hierarquia de Processos
 
 Em alguns sistemas, quando um processo cria outro, o processo-pai fica associado ao processo-filho, e o 
 filho pode criar outros processos, criando assim uma hierarquia de processos.
@@ -107,7 +107,7 @@ quando um cria outro, há uma ligação entre eles, mas essa ligação pode ser 
 passa seu identificador para outro processo. Quando o processo-pai é finalizado, os processos vinculados 
 a ele não são automaticamente finalizados.
 
-## Estados de Processos
+### Estados de Processos
 
 Durante o processamento, os processos podem passar por diferentes estados. Um processo ativo pode estar 
 em três estados:
@@ -136,7 +136,7 @@ de execução e o escalonador permite a execução do processo que estava aguard
 4. **Bloqueado para Pronto:** Quando o evento externo ou a operação de E/S ocorre, o processo retorna para 
 a fila de processamento.
 
-# Threads
+## Threads
 
 Threads, ou "segmentos de execução", são unidades menores de processamento que podem ser executadas de 
 forma independente dentro de um processo. Enquanto os processos representam programas em execução com seus 
@@ -153,7 +153,7 @@ por não terem recursos vinculados a elas.
 
 Quando uma aplicação processa muitas informações de E/S, o uso das threads acelera a execução das aplicações.
 
-## Implementação de Processos 
+### Implementação de Processos 
 
 A implementação do modelo de processos em sistemas operacionais envolve manter um quadro de processos 
 contendo informações cruciais sobre cada processo em execução, como estado, contador de programa, ponteiro 
@@ -161,7 +161,7 @@ da pilha, alocação de memória e status dos arquivos abertos. Essas informaç�
 operacional reinicie um processo a partir do ponto em que ele foi interrompido, garantindo uma execução 
 eficiente e concorrente de múltiplos processos.
 
-## Implementação de Threads
+### Implementação de Threads
 
 A implementação de threads pode ocorrer no espaço do usuário, no núcleo do SO ou em uma implementação híbrida.
 
@@ -176,7 +176,7 @@ pois o gerenciamento é feito através de chamadas ao sistema.
 operacional. Nesse modelo, o sistema operacional tem conhecimento das threads criadas pela aplicação e 
 realiza seu gerenciamento. Uma das principais vantagens desse tipo de implementação é a flexibilidade que ela proporciona.
 
-# Conclusão
+## Conclusão
 
 O problema de travamento de um software pode ocorrer tanto devido ao próprio software quanto ao hardware. 
 Em tais casos, a abordagem correta é encerrar o processo e verificar se isso terá algum impacto sobre 
@@ -184,3 +184,5 @@ outros processos em execução.
 
 A implementação de threads durante a execução de processos agiliza o processamento e melhora o desempenho 
 das aplicações, permitindo a execução de duas ou mais tarefas simultaneamente.
+
+# Comunição entre Processos
