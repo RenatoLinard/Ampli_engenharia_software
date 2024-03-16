@@ -98,6 +98,10 @@ outro processo.
 Em alguns sistemas, quando um processo cria outro, o processo-pai fica associado ao processo-filho, e o 
 filho pode criar outros processos, criando assim uma hierarquia de processos.
 
+No Unix, o processo-pai, filhos e descendentes formam um grupo de processos. Por exemplo, quando o usuário 
+envia um sinal de teclado, este sinal é entregue para todos os processos que compõem o grupo de processos 
+do teclado. Quando um processo-pai é morto, todos os outros vinculados a ele também são finalizados.
+
 No Windows, não há uma hierarquia de processo clara. Cada processo possui um identificador próprio e, 
 quando um cria outro, há uma ligação entre eles, mas essa ligação pode ser quebrada quando um processo-pai 
 passa seu identificador para outro processo. Quando o processo-pai é finalizado, os processos vinculados 
@@ -117,4 +121,17 @@ operacional decide a ordem e os critérios para a execução dos processos.
 3. **Espera ou bloqueado:** Quando está aguardando um evento externo, como um comando do usuário ou por 
 um recurso para executar.
 
+Quatro mudanças podem acontecer entre os estados:
 
+1. **Execução para Bloqueado:** Quando um processo passa a aguardar um evento externo ou uma operação de 
+E/S e não consegue continuar o processamento.
+
+2. **Execução para Pronto:** Essa transição é realizada pelo escalonador sem que o processo tenha conhecimento. 
+O escalonador de processos tem a função de decidir em qual momento cada processo será executado. Nessa 
+segunda transição, o escalonador decide que o processo já teve tempo suficiente para execução.
+
+3. **Pronto para Execução:** Nessa terceira transição, ocorre quando outros processos já tiveram seu tempo 
+de execução e o escalonador permite a execução do processo que estava aguardando.
+
+4. **Bloqueado para Pronto:** Quando o evento externo ou a operação de E/S ocorre, o processo retorna para 
+a fila de processamento.
