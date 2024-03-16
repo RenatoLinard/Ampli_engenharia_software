@@ -175,3 +175,12 @@ pois o gerenciamento é feito através de chamadas ao sistema.
 3. **Threads híbridas:** São implementadas tanto no espaço do usuário quanto no núcleo do sistema 
 operacional. Nesse modelo, o sistema operacional tem conhecimento das threads criadas pela aplicação e 
 realiza seu gerenciamento. Uma das principais vantagens desse tipo de implementação é a flexibilidade que ela proporciona.
+
+# Conclusão
+
+O problema de travamento de um software pode ocorrer tanto devido ao próprio software quanto ao hardware. 
+Em tais casos, a abordagem correta é encerrar o processo e verificar se isso terá algum impacto sobre 
+outros processos em execução.
+
+A implementação de threads durante a execução de processos agiliza o processamento e melhora o desempenho 
+das aplicações, permitindo a execução de duas ou mais tarefas simultaneamente.
