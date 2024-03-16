@@ -210,4 +210,45 @@ imprime, o B precisa aguardar o processo A produzir os dados para depois imprimi
 
 ### Condições de disputa ou condições de corrida 
 
+Condições de disputa, ou corrida, ocorrem em sistemas concorrentes quando dois ou mais processos ou 
+threads estão compartilhando recursos, como uma região da memória, e o resultado final do programa 
+depende da sequência específica de execução desses processos. Isso pode levar a comportamentos inesperados 
+ou incorretos devido à natureza não determinística das operações concorrentes.
+
+Por exemplo, se dois processos tentarem escrever na mesma região de memória simultaneamente, o resultado 
+final pode depender da ordem em que essas operações ocorrem. Se um processo ler um valor antes que outro 
+processo o altere, o resultado será diferente do que seria se a leitura ocorresse após a alteração. Essas 
+situações podem levar a erros de lógica, corrupção de dados ou outros problemas no programa.
+
+### Regiões críticas
+
+Para evitar condições de disputa e garantir a consistência dos dados em sistemas concorrentes, é essencial 
+implementar mecanismos de exclusão mútua. Esses mecanismos são projetados para permitir que apenas um processo 
+ou thread tenha acesso exclusivo a uma região crítica da memória compartilhada em um determinado momento, 
+enquanto outros processos ou threads aguardam sua vez.
+
+A parte do programa em que um processo ou thread acessa a memória compartilhada é chamada de região 
+crítica ou seção crítica.
+
+Para uma boa solução, é necessário satisfazer quatro itens:
+
+1. **Dois ou mais processos jamais estarão ao mesmo tempo em suas regiões críticas:** Isso significa que 
+apenas um processo por vez pode estar executando em sua região crítica. Garante que não ocorram condições 
+de disputa, onde múltiplos processos tentam acessar ou modificar os mesmos dados compartilhados simultaneamente.
+
+2. **Não se pode afirmar nada sobre o número e a velocidade de CPUs:** Esse item reconhece que a solução 
+para o problema de exclusão mútua deve ser independente da arquitetura de hardware subjacente, incluindo o 
+número de processadores e suas velocidades. A solução deve funcionar de forma eficiente independentemente 
+das características específicas do hardware.
+
+3. **Nenhum processo que esteja executando fora de sua região crítica pode bloquear outros processos:** 
+Isso garante que um processo que não está executando em sua região crítica não pode impedir outros processos 
+de entrar em suas regiões críticas. Isso evita a possibilidade de bloqueios desnecessários e aumenta a 
+eficiência do sistema.
+
+4. **Nenhum processo deve esperar sem ter uma previsão para entrar em sua região crítica:** Isso significa 
+que os processos não devem ficar esperando indefinidamente para entrar em suas regiões críticas. Em outras 
+palavras, se um processo deseja entrar em sua região crítica e essa região está livre, ele deve ser capaz 
+de entrar imediatamente, sem esperar indefinidamente.
+
 
