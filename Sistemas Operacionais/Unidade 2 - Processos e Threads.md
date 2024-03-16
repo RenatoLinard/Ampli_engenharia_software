@@ -185,4 +185,10 @@ outros processos em execução.
 A implementação de threads durante a execução de processos agiliza o processamento e melhora o desempenho 
 das aplicações, permitindo a execução de duas ou mais tarefas simultaneamente.
 
-# Comunição entre Processos
+# Comunicação entre Processos
+
+No Sistema Operacional, os processos e threads trocam informações entre si ou solicitam a utilização de 
+recursos simultaneamente, como arquivos, dispositivos de E/S e memória.
+
+## Execução cooperativa de processos e threads
+
