@@ -135,3 +135,22 @@ de execução e o escalonador permite a execução do processo que estava aguard
 
 4. **Bloqueado para Pronto:** Quando o evento externo ou a operação de E/S ocorre, o processo retorna para 
 a fila de processamento.
+
+# Threads
+
+Threads, ou "segmentos de execução", são unidades menores de processamento que podem ser executadas de 
+forma independente dentro de um processo. Enquanto os processos representam programas em execução com seus 
+próprios espaços de memória e recursos, as threads compartilham os mesmos espaços de memória e recursos 
+dentro de um processo, possibilitando que sejam criadas e destruídas mais rapidamente, pois não exigem a 
+alocação de novos espaços de memória.
+
+Os processos podem conter uma ou mais threads dentro de si, compartilhando os mesmos recursos do processo.
+
+A utilização das threads é fundamental nas aplicações modernas devido à necessidade de lidar com múltiplas 
+atividades simultâneas. Aplicações compostas por threads possuem atividades sendo executadas em paralelo, 
+o que melhora o desempenho e a eficiência do sistema. Outra vantagem das threads é na criação e destruição 
+por não terem recursos vinculados a elas.
+
+Quando uma aplicação processa muitas informações de E/S, o uso das threads acelera a execução das aplicações.
+
+
