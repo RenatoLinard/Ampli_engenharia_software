@@ -153,4 +153,10 @@ por não terem recursos vinculados a elas.
 
 Quando uma aplicação processa muitas informações de E/S, o uso das threads acelera a execução das aplicações.
 
+## Implementação de Processos 
 
+A implementação do modelo de processos em sistemas operacionais envolve manter um quadro de processos 
+contendo informações cruciais sobre cada processo em execução, como estado, contador de programa, ponteiro 
+da pilha, alocação de memória e status dos arquivos abertos. Essas informações permitem que o sistema 
+operacional reinicie um processo a partir do ponto em que ele foi interrompido, garantindo uma execução 
+eficiente e concorrente de múltiplos processos.
