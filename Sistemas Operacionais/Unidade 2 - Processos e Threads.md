@@ -265,3 +265,19 @@ comprometida caso um processo esqueça de reativar as interrupções ao sair da 
 
 Em sistemas de multiprocessadores, a interrupção ocorre em apenas um processador e os outros acessariam 
 normalmente a memória compartilhada, comprometendo a solução.
+
+Essa solução faz a implementação no hardware do computador diferente das demais que são implementdas via 
+software.
+
+### Variáveis de impedimento
+
+Nesta solução, há uma variável chamada **lock** inicializada com o valor 0. O processo testa e verifica o 
+valor dessa variável antes de entrar na região crítica. Se o valor estiver em 0, o processo o altera para 
+1 e entra na região crítica. Caso o teste revele que o valor da variável é 1, o processo aguarda até que 
+seja alterado para 0.
+
+No entanto, essa solução não resolve completamente o problema de exclusão mútua, pois mantém a condição de 
+disputa. Por exemplo, se o processo 1 verificar que a variável está em 0 e tentar alterá-la para 1, mas o 
+processo 2 fizer isso antes, ambos os processos entrarão na região crítica.
+
+
