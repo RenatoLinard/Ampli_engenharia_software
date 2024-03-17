@@ -251,4 +251,17 @@ que os processos não devem ficar esperando indefinidamente para entrar em suas 
 palavras, se um processo deseja entrar em sua região crítica e essa região está livre, ele deve ser capaz 
 de entrar imediatamente, sem esperar indefinidamente.
 
+## Exclusão mútua: com espera ociosa
 
+Existem alguns métodos que impedem que um processo invada outro quando estão em suas regiões críticas.
+
+### Desabilitando interrupções
+
+Nessa solução, as interrupções são desabilitadas por cada processo assim que entra em sua região crítica 
+e reativadas assim que sai delas. Dessa forma, a CPU não será disponibilizada para outro processo.
+
+Essa solução se torna falha, pois ao dar autonomia para os processos, a multiprogramação pode ficar 
+comprometida caso um processo esqueça de reativar as interrupções ao sair da região crítica.
+
+Em sistemas de multiprocessadores, a interrupção ocorre em apenas um processador e os outros acessariam 
+normalmente a memória compartilhada, comprometendo a solução.
